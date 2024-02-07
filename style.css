@@ -58,3 +58,39 @@ margin-top: 150px;
 .images-area {
     padding-left: 50px;
 }
+/* Experiances Area CSS */
+h1 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 70px;
+}
+.experiance-section {
+    margin-top: 70PX;
+}
+.experiance-list {
+    text-align: justify;
+    margin: 50px;
+    padding: 20px;
+    border-left: 7px solid #FF9843;
+    box-shadow: 35px 1px 30px 2px lightgray;
+}
+.experiance-section h2 {
+    font-weight: 400;
+    color: black;
+}
+.experiance-section h3 {
+    font-weight: 400;
+    color: orange;
+}
+.experiance-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#gread {
+    border-left: 5px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer {
+    text-align: center;
+}
