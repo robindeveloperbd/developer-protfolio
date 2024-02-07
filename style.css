@@ -5,6 +5,7 @@ body {
 .orange-color {
     color: orange;
 }
+/* Welcom Area CSS */
 section {
     display: flex;
 }
@@ -17,7 +18,7 @@ section {
 }
 .content-area h1 {
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 400;
 }
 .content-area p{
     width: 80%;
@@ -39,4 +40,21 @@ section {
 }
 .half-width {
     width: 50%;
+}
+/* Dream Area CSS */
+.dream-section {
+display: flex;
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+flex-direction: row-reverse;
+margin-top: 150px;
+}
+.dream-section a {
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+.images-area {
+    padding-left: 50px;
 }
