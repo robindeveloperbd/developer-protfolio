@@ -15,10 +15,12 @@ section {
 }
 .content-area {
     padding-left: 50px;
+    margin-top: 90px;
 }
 .content-area h1 {
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 600px;
+    margin: 0;
 }
 .content-area p{
     width: 80%;
@@ -35,8 +37,9 @@ section {
     border-top-left-radius: 20px;
 }
 .images-area img {
-    width: 80%;
-    margin: 0 auto;
+    width: 85%;
+    /* margin: 0 auto; */
+    margin-top: 40px;
 }
 .half-width {
     width: 50%;
@@ -48,7 +51,7 @@ background-image: url(images/dream-bg.png);
 background-repeat: no-repeat;
 background-position: right;
 flex-direction: row-reverse;
-margin-top: 150px;
+margin-top: 120px;
 }
 .dream-section a {
     text-transform: uppercase;
@@ -75,11 +78,11 @@ h1 {
     box-shadow: 35px 1px 30px 2px lightgray;
 }
 .experiance-section h2 {
-    font-weight: 400;
+    font-weight: 700;
     color: black;
 }
 .experiance-section h3 {
-    font-weight: 400;
+    font-weight: 600;
     color: orange;
 }
 .experiance-section {
@@ -93,4 +96,5 @@ h1 {
 }
 footer {
     text-align: center;
+   margin: 15px 0;
 }
